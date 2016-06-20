@@ -8,4 +8,6 @@ services:
 
 install:
   - docker build -t graphviz .
+
+script:
   - docker run -it graphviz "dot -V"
