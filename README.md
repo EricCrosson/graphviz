@@ -21,14 +21,14 @@ By default (e.g. without arguments) this container will execute `make` in its
 `/data` directory
 
 ```bash
-docker run --rm -v $(pwd):/data hamroctopus/graphviz:2.38.0
+docker run -v $(pwd):/data hamroctopus/graphviz:2.38.0
 ```
 
 If arguments are supplied, they will be passed to a `bash` shell inside the
 container's `/data` directory.
 
 ```bash
-docker run --rm -v $(pwd):/data hamroctopus/graphviz:2.38.0 custom-make-process
+docker run -v $(pwd):/data hamroctopus/graphviz:2.38.0 custom-make-process
 ```
 
 License
