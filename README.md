@@ -1,10 +1,10 @@
 Overview
 ========
+[![Build Status](https://travis-ci.org/EricCrosson/graphviz.svg?branch=graphviz)](https://travis-ci.org/EricCrosson/graphviz)
 [![image](https://imagelayers.io/badge/hamroctopus/graphviz:2.38.0.svg)](https://imagelayers.io/?images=hamroctopus/graphviz:latest)
 [![image](https://img.shields.io/badge/docker-ready-blue.svg)](https://hub.docker.com/r/hamroctopus/graphviz/)
 [![image](https://img.shields.io/docker/pulls/hamroctopus/graphviz.svg?maxAge=2592000)](https://hub.docker.com/r/hamroctopus/graphviz/)
 [![image](https://img.shields.io/docker/stars/hamroctopus/graphviz.svg?maxAge=2592000)](https://hub.docker.com/r/hamroctopus/graphviz/)
-[![Build Status](https://travis-ci.org/EricCrosson/graphviz.svg?branch=graphviz)](https://travis-ci.org/EricCrosson/graphviz)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)]()
 
 This docker container provides
