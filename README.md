@@ -28,7 +28,7 @@ If arguments are supplied, they will be passed to a `bash` shell inside the
 container's `/data` directory.
 
 ```bash
-docker run -v $(pwd):/data hamroctopus/graphviz:2.38.0 custom-make-process
+docker run -v $(pwd):/data hamroctopus/graphviz:2.38.0 /data/custom-make-script
 ```
 
 License
