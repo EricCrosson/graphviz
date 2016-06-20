@@ -1,0 +1,11 @@
+---
+language: python
+python:
+  - 2.7
+
+services:
+  - docker
+
+install:
+  - docker build -t graphviz .
+  - docker run -it graphviz dot -V
